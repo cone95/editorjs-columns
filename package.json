@@ -1,8 +1,8 @@
 {
-  "name": "@calumk/editorjs-columns",
+  "name": "@cone95/editorjs-columns",
   "version": "0.2.4",
   "description": "Columns, for EditorJS",
-  "main": "dist/editorjs-columns.bundle.js",
+  "main": "src/editorjs-columns.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch",
