@@ -13,26 +13,8 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.css$/, loader: "style-loader!css-loader" },
-      { test: /\.svg$/, loader: "svg-inline-loader" },
-    ],
-    rules: [
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader',
-        ],
-      },
-      {
-        test: /\.svg$/,
-        use : [{
-            loader  : 'svg-inline-loader',
-            options : {
-                removeSVGTagAttrs : false
-            }
-        }]
-      }
-    ],
+      { test: /\.svg$/, loader: "svg-inline-loader" }
+    ]
   },
   // node: { global: true, fs: 'empty' },
   // optimization: {
